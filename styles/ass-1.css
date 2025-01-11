@@ -1,108 +1,190 @@
-.fira-sans-thin {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .fira-sans-extralight {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .fira-sans-light {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .fira-sans-regular {
+.fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
   }
-  
-  .fira-sans-medium {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .fira-sans-semibold {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .fira-sans-bold {
+    .fira-sans-bold {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
   }
-  
-  .fira-sans-extrabold {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: normal;
+  /* nav sty */
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    margin-top: ;
   }
-  
-  .fira-sans-black {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: normal;
+  .nav-title{
+    font-weight: bold;
+    font-size: 32px;
   }
-  
-  .fira-sans-thin-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: italic;
+  nav ul li {
+    list-style: none;
   }
-  
-  .fira-sans-extralight-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: italic;
+  nav li {
+    text-decoration: n;
   }
-  
-  .fira-sans-light-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .fira-sans-regular-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .fira-sans-medium-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .fira-sans-semibold-italic {
-    font-family: "Fira Sans", serif;
+  .btn-primary{
     font-weight: 600;
-    font-style: italic;
+    font-size: 18;
+    color: #006A50;
+    background-color:white ;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-color: #006A50;
   }
-  
-  .fira-sans-bold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: italic;
+  .btn-primary:hover{
+    background-color:aquamarine;
   }
-  
-  .fira-sans-extrabold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: italic;
+  .btn-2nd{
+    padding: 17px 34px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
   }
-  
-  .fira-sans-black-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: italic;
+  .btn-2nd:hover{
+    background-color: aquamarine;
   }
-  
+/* banner style */
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    width: 1280;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 60px;
+    gap: 64px;
+
+  }
+  .banner-content{
+    width: 622px;
+  }
+.banner-h4{
+  font-weight:500;
+  color: #0E0E0E 50%;
+  font-size: 24px;
+}
+
+
+
+
+ .container-h {
+  padding: 0 160px;
+ }
+ .banner-h1{
+  font-weight: bold;
+  font-size: 56px;
+ }
+
+.vision-section {
+  padding: 50px 20px;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 160px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 20px);
+  max-width: 300px;
+  text-align: left;
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.learn-more {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  background-color: #0056b3;
+}
+
+/* Card-specific colors */
+.card.blue {
+  background-color: #eef6ff;
+}
+
+.card.green {
+  background-color: #eaffea;
+}
+
+.card.yellow {
+  background-color: #fff8e5;
+}
+
+.learn-more.blue {
+  background-color: #007bff;
+}
+
+.learn-more.green {
+  background-color: #28a745;
+}
+
+.learn-more.yellow {
+  background-color: #ffc107;
+}
+
+.learn-more.blue:hover {
+  background-color: #0056b3;
+}
+
+.learn-more.green:hover {
+  background-color: #1e7e34;
+}
+
+.learn-more.yellow:hover {
+  background-color: #d39e00;
+}
