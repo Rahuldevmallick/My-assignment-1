@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 16px 24px;
-    margin-top: ;
+    
   }
   .nav-title{
     font-weight: bold;
@@ -254,7 +254,6 @@
 .latest-news-section {
   padding: 50px 20px;
   text-align:start
-  background-color: #f4f4f4;
 }
 
 .news-container {
