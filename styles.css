@@ -38,7 +38,9 @@ body {
     border-radius: 8px;
 
 }
-
+.signIn-btn:hover {
+    background-color: aquamarine;
+}
 .hero {
     margin-top: 20px;
     display: flex;
