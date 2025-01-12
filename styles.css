@@ -41,7 +41,7 @@ body {
 .signIn-btn:hover {
     background-color: aquamarine;
 }
-.banner {
+.hero {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -51,11 +51,11 @@ body {
     background: rgb(198, 228, 214);
 }
 
-.banner-text{
+.hero-text{
     width: 50%;
 }
 
-.banner-p {
+.hero-p {
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
     font-size: 24px;
@@ -63,7 +63,7 @@ body {
     line-height: 29px;
 }
 
-.banner-h1 {
+.hero-h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
@@ -71,7 +71,7 @@ body {
     padding-bottom: 24px;
 }
 
-.banner-btn {
+.hero-btn {
     border-radius: 8px;
 
     background: rgb(0, 106, 80);
@@ -82,12 +82,12 @@ body {
     padding: 16px 32px;
 }
 
-.banner-img{
+.hero-img{
     width: 50%;
 
 }
 
-.banner-img img{
+.hero-img img{
     width: 100%;
 }
 
