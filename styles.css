@@ -41,7 +41,7 @@ body {
 .signIn-btn:hover {
     background-color: aquamarine;
 }
-.banner {
+.banner{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -71,7 +71,7 @@ body {
     padding-bottom: 24px;
 }
 
-.banner-btn {
+.banner-btn{
     border-radius: 8px;
 
     background: rgb(0, 106, 80);
