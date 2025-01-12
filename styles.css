@@ -12,7 +12,7 @@ body {
     color: rgb(14, 14, 14);
     background-color: rgb(245, 245, 245);
 }
-
+/* /banner-part */
 .header {
     padding-top: 30px;
     display: flex;
@@ -41,7 +41,7 @@ body {
 .signIn-btn:hover {
     background-color: aquamarine;
 }
-.hero {
+.banner {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -51,11 +51,11 @@ body {
     background: rgb(198, 228, 214);
 }
 
-.hero-text{
+.banner-text{
     width: 50%;
 }
 
-.hero-p {
+.banner-p {
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
     font-size: 24px;
@@ -63,7 +63,7 @@ body {
     line-height: 29px;
 }
 
-.hero-h1 {
+.banner-h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
@@ -71,7 +71,7 @@ body {
     padding-bottom: 24px;
 }
 
-.hero-btn {
+.banner-btn {
     border-radius: 8px;
 
     background: rgb(0, 106, 80);
@@ -82,12 +82,12 @@ body {
     padding: 16px 32px;
 }
 
-.hero-img{
+.banner-img{
     width: 50%;
 
 }
 
-.hero-img img{
+.banner-img img{
     width: 100%;
 }
 
@@ -278,7 +278,7 @@ margin-top: 24px;
     padding:24px;
 }
 
-
+/* news-part */
 .news-card{
 
     display: flex;
@@ -321,7 +321,7 @@ margin-top: 24px;
     font-weight: 600;
     margin-top: 32px;
 }
-
+/* donate-part */
 .donate{
     text-align: center;
 }
@@ -376,7 +376,7 @@ color: white;
 border-radius: 16px;
 
 }
-
+/* Newslatter-part */
 .newsletter{
     display: flex;
     flex-direction: column;
